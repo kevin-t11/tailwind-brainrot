@@ -1,9 +1,10 @@
-import { SVGComponent } from '@/app/components/SVGComponent';
+import { Marquee } from './components/marquee';
+import { Button8 } from './components/button8';
 
 export default function Home() {
   return (
-    <div className="h-screen bg-gray-100">
-      <SVGComponent />
+    <div className="bg-background h-screen">
+      <Button8 />
     </div>
   );
 }
